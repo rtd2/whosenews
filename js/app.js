@@ -5,7 +5,7 @@ function randomStory(storyID) {
     console.log(num);
     var id = storyID;
     var story = stories[id][num];
-    document.getElementById("video").innerHTML = '<iframe id="video" width="420" height="315" src="' + story + '" frameborder="0"></iframe>';
+    document.getElementById("video").innerHTML = '<iframe id="video" width="1" height="1" src="' + story + '" frameborder="0"></iframe>';
 }
 
 var stories = {
